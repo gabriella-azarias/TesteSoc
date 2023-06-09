@@ -11,13 +11,3 @@ Funcionalidade: Busca no blog
     E pressiono a tecla enter 
     Então vejo os resultados da pesquisa relacionados a "automação de testes"
     
-    
-  Cenario: Buscar e exibir perfil de um credenciado
-    Dado que estou no site de Rede SOCNET
-    Quando eu acesso a página "Funcionalidades"
-    E eu acesso a página "Rede SOCNET"
-    E eu acesso a página "Buscar credenciados"
-    E eu preencho os filtros de busca com os critérios desejados
-    E eu clico no botão de busca
-    Então devo ver o perfil do credenciado buscado
-

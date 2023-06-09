@@ -14,6 +14,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.junit.Assert;
 
+
+
+
 public class BuscaBlog {
 
 	private WebDriver driver;
@@ -68,6 +71,8 @@ public class BuscaBlog {
 		Assert.assertTrue(textoResultado.contains(termoBusca));
 	}
 
+
+	
 	@After
 	public void tearDown() {
 		// Fechar o WebDriver do Selenium após os testes
